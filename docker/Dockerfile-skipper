@@ -1,0 +1,3 @@
+FROM eclipse-temurin:17-jdk-focal
+COPY spring-cloud-skipper-server.jar /spring-cloud-skipper-server.jar
+CMD ["java", "-jar", "/spring-cloud-skipper-server.jar"]
